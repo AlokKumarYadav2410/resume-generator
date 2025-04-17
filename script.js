@@ -111,9 +111,11 @@ function generateCV() {
     objT.innerHTML = obj;
 
     let wes = document.getElementsByClassName("weField")
-    if(wes.length == 0) {
-        showAlert("Please enter your work experience")
-        return;
+    for(let i = 0; i < wes.length; i++) {
+        if(wes[i].value.length == 0) {
+            showAlert("Please enter your work experience")
+            return;
+        }
     }
     let str = ''
     for (let e of wes) {
@@ -123,7 +125,7 @@ function generateCV() {
     let aqs = document.getElementsByClassName("aqField")
     for(let i = 0; i < aqs.length; i++) {
         if(aqs[i].value.length == 0) {
-            alert("Please enter your academic qualification")
+            showAlert("Please enter your academic qualification")
             return;
         }
     }
