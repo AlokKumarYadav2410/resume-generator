@@ -63,36 +63,35 @@ function generateCV() {
     document.getElementById("nameT2").innerHTML = name;
     let dob = document.getElementById("dob").value;
     if(dob.length == 0) {
-        showAlert('Hello World!');
-        alert("Please enter your date of birth")
+        showAlert("Please enter your date of birth");
         return;
     }
     let dobT = document.getElementById("dobT")
     dobT.innerHTML = dob;
     let address = document.getElementById("address").value;
     if(address.length == 0) {
-        alert("Please enter your address")
+        showAlert("Please enter your address")
         return;
     }
     let addressT = document.getElementById("addressT")
     addressT.innerHTML = address;
     let contact = document.getElementById("contact").value;
     if(contact.length == 0) {
-        alert("Please enter your contact number")
+        showAlert("Please enter your contact number")
         return;
     }
     let contactT = document.getElementById("contactT")
     contactT.innerHTML = contact;
     let linkedin = document.getElementById("linkedin").value;
     if(linkedin.length == 0) {
-        alert("Please enter your linkedin profile link")
+        showAlert("Please enter your linkedin profile link")
         return;
     }
     let linkedinT = document.getElementById("linkedinT")
     linkedinT.innerHTML = linkedin;
     let ghb = document.getElementById("ghb").value;
     if(ghb.length == 0) {
-        alert("Please enter your github profile link")
+        showAlert("Please enter your github profile link")
         return;
     }
     
@@ -100,7 +99,7 @@ function generateCV() {
     ghbT.innerHTML = ghb;
     let obj = document.getElementById("obj").value;
     if(obj.length == 0) {
-        alert("Please enter your objective")
+        showAlert("Please enter your objective")
         return;
     }
     // if(obj.length > 100) {
@@ -113,7 +112,7 @@ function generateCV() {
 
     let wes = document.getElementsByClassName("weField")
     if(wes.length == 0) {
-        alert("Please enter your work experience")
+        showAlert("Please enter your work experience")
         return;
     }
     let str = ''
@@ -124,7 +123,7 @@ function generateCV() {
     let aqs = document.getElementsByClassName("aqField")
     for(let i = 0; i < aqs.length; i++) {
         if(aqs[i].value.length == 0) {
-            alert("Please enter your academic qualifications")
+            alert("Please enter your academic qualification")
             return;
         }
     }
@@ -136,7 +135,7 @@ function generateCV() {
     let sks = document.getElementsByClassName("skField")
     for(let i = 0; i < sks.length; i++) {
         if(sks[i].value.length == 0) {
-            alert("Please enter your skills")
+            showAlert("Please enter your skills")
             return;
         }
     }
@@ -148,11 +147,11 @@ function generateCV() {
 
     let file = document.getElementById("imgField").files[0];
     if(file == undefined) {
-        alert("Please upload your image")
+        showAlert("Please upload your image")
         return;
     }
     if(file.size > 1000000) {
-        alert("Image size should be less than 1MB")
+        showAlert("Image size should be less than 1MB")
         return;
     }
     console.log(file);
