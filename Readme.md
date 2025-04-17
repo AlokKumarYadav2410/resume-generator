@@ -2,8 +2,6 @@
 
 A sleek and interactive **CV Generator** built with **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. This project allows users to create professional CVs effortlessly with a live preview and print option. 🚀
 
----
-
 ## 📋 Table of Contents
 
 - [✨ Features](#-features)
@@ -17,7 +15,6 @@ A sleek and interactive **CV Generator** built with **HTML**, **CSS**, **JavaScr
 - [📜 License](#-license)
 - [📬 Contact](#-contact)
 
----
 
 ## ✨ Features
 
@@ -28,8 +25,6 @@ A sleek and interactive **CV Generator** built with **HTML**, **CSS**, **JavaScr
 - 🖨️ **Print Option**: Print the generated CV directly from the browser.
 - 📱 **Responsive Design**: Fully responsive and mobile-friendly layout using **Bootstrap**.
 
----
-
 ## 🛠️ Technologies Used
 
 - **HTML5**: For the structure of the application.
@@ -37,33 +32,28 @@ A sleek and interactive **CV Generator** built with **HTML**, **CSS**, **JavaScr
 - **JavaScript**: For dynamic functionality like adding fields and generating the CV.
 - **Bootstrap 5**: For responsive design and pre-styled components.
 
----
-
 ## 📂 Project Structure
-ResumeGenerator/ 
-├── index.html # Main HTML file 
-├── style.css # Custom CSS styles 
-├── script.js # JavaScript functionality
+    resume-generator/ 
+    ├── index.html # Main HTML file 
+    ├── style.css # Custom CSS styles 
+    ├── script.js # JavaScript functionality
 
----
 
 ## 🚀 How to Use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/ResumeGenerator.git
+   git clone https://github.com/AlokKumarYadav2410/resume-generator.git
 
 2. Navigate to the project directory:
    ```bash
-   cd ResumeGenerator
+   cd resume-generator
 
 3. Open index.html in your browser to start using the CV Generator.
 
 ## 📸 Screenshots
-Input Form
-<img alt="Input Form" src="https://via.placeholder.com/800x400?text=Input+Form">
-Generated CV
-<img alt="Generated CV" src="https://via.placeholder.com/800x400?text=Generated+CV">
+<img alt="input-form" src="assets/input-form.png" style="width:48%;">&nbsp;&nbsp;
+<img alt="generated-resume" src="assets/generated-resume.png" style="width:48%;">
 🌟 Demo
 You can try the live demo here.
 
