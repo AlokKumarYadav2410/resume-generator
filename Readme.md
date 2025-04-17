@@ -22,7 +22,7 @@ A sleek and interactive **Resume Generator** built with **HTML**, **CSS**, **Jav
 ## 🚀 Live Demo
 Click the link below to try the Resume Generator instantly:
 
-🔗 [Resume Generator Live Demo](https://password-generator-gilt-eight-39.vercel.app)
+🔗 [Resume Generator Live Demo](https://resume-generator-rouge.vercel.app)
 
 ## ✨ Features
 
